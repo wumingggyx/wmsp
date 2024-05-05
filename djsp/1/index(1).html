@@ -454,18 +454,18 @@ img {
         // 调用播放器的setSize方法，以调整播放器的内部大小
         player.setSize('100%', elHeight);
     });
-// 监听网络状态变化
-    window.addEventListener('online', function() {
-        // 用户连接到Wi-Fi，可以加载更高清晰度的视频
-        // 这里可以调用播放器的相关方法来调整视频质量
-     });
+// // 监听网络状态变化
+//     window.addEventListener('online', function() {
+//         // 用户连接到Wi-Fi，可以加载更高清晰度的视频
+//         // 这里可以调用播放器的相关方法来调整视频质量
+//      });
 
-      // 检测用户是否正在使用移动数据
-    if (navigator.connection && navigator.connection.type === 'cellular') {
-        // 提示用户在Wi-Fi环境下观看
-         alert('您正在使用移动数据，视频放不了,刷新一下就可以啦! 建议在Wi-Fi环境下观看视频以获得更好的体验。');
-     }
-}
+//       // 检测用户是否正在使用移动数据
+//     if (navigator.connection && navigator.connection.type === 'cellular') {
+//         // 提示用户在Wi-Fi环境下观看
+//          alert('您正在使用移动数据，视频放不了,刷新一下就可以啦! 建议在Wi-Fi环境下观看视频以获得更好的体验。');
+//      }
+// }
 
     $('#pauseplay').on('click', function () {
         jssdk();
